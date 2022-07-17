@@ -83,7 +83,9 @@ html{
     background-color: rebeccapurple;
     width: 130px;
     margin-right: 10px;
+
     margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 14px;
     margin-left: 0px;
     text-align: center;
@@ -96,6 +98,7 @@ html{
     cursor: pointer;
 
 }
+
 .navbar > div:hover{
     background-color: rgb(41, 68, 113);
     border-bottom: 2px;
@@ -123,7 +126,6 @@ html{
     background-color: rgb(41, 68, 113);
 
 }
-
 /*------------------------------Button-------------------------------*/
 .nav-button {
     background-color: green;
@@ -143,11 +145,19 @@ html{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 20px;
+
     
     /* width: 100px; */
 
 }
 /* flex box */
+
+
+    /* height: 50px; */
+}
+/* .location div{
+    height: 100%;
+} */
 .location > div {
     /* background-color: rebeccapurple; */
     /* to differentiate */
@@ -179,6 +189,7 @@ a:visited{ text-decoration: none; color: white ; }
     background-color: rgb(41, 68, 113);
     border: none;
     border-radius: 5px;
+    padding: 15px;
     color: white;
     padding: 10px 145px;
     text-align: center;
@@ -190,6 +201,14 @@ a:visited{ text-decoration: none; color: white ; }
 }
 
 .view:hover {opacity: 0.6}
+
+    border-right:solid  #F9F6F0 1px;
+    /* height: 2px; */
+}
+
+.location > div:hover{
+    background-color:rgba(85, 116, 178, 100%);
+}
 
 /*------------------------------/*-------------------------------*/
 .main{
@@ -208,12 +227,17 @@ a:visited{ text-decoration: none; color: white ; }
 .main > div {
     background-color: #F9F6F0;
     width: 380px;
+
     height: 420px;
+
+    height: 300px;
+
     margin-left: 18px;
     margin-top: 18px;
     margin-bottom: 18px;
     margin-right: 8px;
     color: blue;
+
     
     font-size: 20px;
 
@@ -285,6 +309,30 @@ a:visited{ text-decoration: none; color: white ; }
 .main1 > img {
     border-radius: 10px 10px 0px 0px;
 }
+
+    text-align: center;
+
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main > div > img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*
+.main1 {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.main1 > img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+
 .main2 {
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -325,5 +373,19 @@ a:visited{ text-decoration: none; color: white ; }
     height: 25px;
     
     margin-top: 10px;
+}
+
+
+
+
+/* added bttton */
+.main a{
+    width: 100%;
+    display: block;
+    background-color: rgba(34, 43, 58, 100%);
+    text-decoration: none;
+    color: #F9F6F0;
+    border-radius: 5px;
+    
 }
 
