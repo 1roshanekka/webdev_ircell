@@ -172,15 +172,15 @@ html{
 .main #york .yorkimg{
     background-image: url("images/york.jpg");
     background-size: cover;
-    border-bottom-left-radius:13% ;
-    border-bottom-right-radius:13% ;
+    border-bottom-left-radius:20% ;
+    border-bottom-right-radius:20% ;
 }
 .main #york .yorkdetail a{
     width:300px;
     display: block;
     text-decoration: none;
     color: #f5f5dc;
-    background-color: aqua;
+    background-color: rgba(34, 43, 58, 100%);
     width: 100%;
     border-radius: 5px;
 }
